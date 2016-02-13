@@ -3,7 +3,7 @@
 
 </head>
 <body>
-<h1>User Login Form - PHP MySQL Ligin System | W3Epic.com</h1>
+
 <?php
 if (!isset($_POST['submit'])){
 ?>
@@ -12,7 +12,9 @@ if (!isset($_POST['submit'])){
 		Username: <input type="text" name="username" /><br />
 		Password: <input type="password" name="password" /><br />
  
-		<input type="submit" name="submit" value="Login" />
+		<input type="submit" name="submit" value="Login" /><br>
+				<a href="register.php">Sign Up</a>
+
 	</form>
 <?php
 } else {
